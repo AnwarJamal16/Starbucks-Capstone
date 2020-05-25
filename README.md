@@ -1,4 +1,4 @@
-# Starbucks Capstone Challenge:
+# Starbucks Capstone Challenge 
 
 > ### Overview :
 
@@ -7,7 +7,7 @@ Customer satisfaction drives business success and data analytics provide useful 
 This data set consists of three files. The first file describes the characteristics of each offer, including its duration and the amount a customer needs to spend to complete it. The second file contains customer demographic data including their age, gender, income, and when they created an account on the Starbucks rewards mobile application. The third file describes customer purchases and when they received, viewed, and completed an offer. An offer is only successful when a customer both views an offer and meets or exceeds its difficulty within the offer's duration
 
 
-> ### Problem Statement / Metrics
+> ### Problem Statement / Metrics :
 
 The problem that I chose to solve are to:
 
@@ -66,7 +66,7 @@ My decision to use three separate models to predict the effectiveness of each of
 Meanwhile, for BOGO and discount models, I am quite happy with the 80% and above accuracy, as in a business setting that would be acceptable to show offers to people, even if the model misclassifies a few, the overall revenue increase might justify the few mistakes.
 
 
-> ### Acknowledgement:
+> ### Acknowledgement :
 
 * Udacity for great course materials
 
