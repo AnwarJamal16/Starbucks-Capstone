@@ -6,6 +6,7 @@ Customer satisfaction drives business success and data analytics provide useful 
 
 This data set consists of three files. The first file describes the characteristics of each offer, including its duration and the amount a customer needs to spend to complete it. The second file contains customer demographic data including their age, gender, income, and when they created an account on the Starbucks rewards mobile application. The third file describes customer purchases and when they received, viewed, and completed an offer. An offer is only successful when a customer both views an offer and meets or exceeds its difficulty within the offer's duration
 
+
 > ### Problem Statement / Metrics
 
 The problem that I chose to solve are to:
@@ -17,6 +18,7 @@ The problem that I chose to solve are to:
 Using the data provided, I answer the above two questions using 3 classification supervised machine learning models.I use the model to uncover the feature importances to identify the drivers of offer effectiveness, while exploring if the model itself could be used to predict if a user would take up an offer.I also explore the characteristics of users who do or do not take up an offer.
 
 I will assess the accuracy and F1-score of a naive model that assumes all offers were successful ,My first assessing whether an all-in-one model could be used in place of 3 different models, with the offer types functioning as a categorical variable. Secondly, I also build a regression model to see if we could predict the amount a user would spend, given that the offer is effectively influencing them. I will refine the parameters of the model that has the highest accuracy and F1-score.
+
 
 > ### Libraries :
 	
@@ -32,6 +34,7 @@ I will assess the accuracy and F1-score of a naive model that assumes all offers
 	
 * sklearn
 
+
 > ### Data :
 
 * portfolio.json: containing offer ids and meta data about each offer.
@@ -40,10 +43,12 @@ I will assess the accuracy and F1-score of a naive model that assumes all offers
 
 * transcript.json: records for transactions, offers received, offers viewed, and offers completed
 
+
 > ### Files :
 
 * Starbucks_Capstone_notebook.ipynb : contains all the code with its output.
   
+
 > ### Results Summary :
 
 **Question 1 findings:**
@@ -60,6 +65,7 @@ My decision to use three separate models to predict the effectiveness of each of
 
 Meanwhile, for BOGO and discount models, I am quite happy with the 80% and above accuracy, as in a business setting that would be acceptable to show offers to people, even if the model misclassifies a few, the overall revenue increase might justify the few mistakes.
 
+
 > ### Acknowledgement:
 
 * Udacity for great course materials
@@ -67,4 +73,4 @@ Meanwhile, for BOGO and discount models, I am quite happy with the 80% and above
 * Starbuck for the dataset
 
 
-#### For more information visit my Starbucks Capstone Challenge [post](https://medium.com/@samplecsn16/sentiment-analysis-of-twitter-data-in-python-2f41ba2b3ea5).  
+#### For more information visit my Starbucks Capstone Challenge [post](https://medium.com/@samplecsn16/starbucks-capstone-challenge-a894b85e8ece?sk=ebea0a8be1eff24327d94dcfdeb4de29).  
